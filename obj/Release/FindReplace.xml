@@ -1,0 +1,617 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FindReplace
+</name>
+</assembly>
+<members>
+<member name="T:FindReplace.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:FindReplace.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:FindReplace.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="T:FindReplace.s_File.EnumFileAttributes">
+ <summary>
+ Enumeration der Datei-Zeiten
+ </summary>
+</member>
+<member name="M:FindReplace.s_File.FileInfo(System.String,FindReplace.s_File.FileTime,System.Int32)">
+ <summary>
+ Liefert Informationen zu einer Datei
+ </summary>
+ <param name="Pfad">Pfad zur Datei</param>
+ <param name="Wert">Wert, der zurückgegeben werden soll (LastWriteTime = 0, LastWriteDate = 1, LastWriteDateTime = 2, LastAccessTime = 3, LastAccessDate = 4, LastAccessDateTime = 5, CreationTime = 6, CreationDate = 7, CreationDateTime = 8)</param>
+ <param name="I">muss nicht geändert werden</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.FileInfo(System.String)">
+ <summary>
+ Liefert Informationen zu einer Datei
+ </summary>
+ <param name="Pfad">...</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.FileInfo(System.String,FindReplace.s_File.FileInfos)">
+ <summary>
+ Liefert Informationen zu einer Datei
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="Wert">Wert, der zurückgegeben werden soll (Dateiversion = 0, Productversion = 1, FileDescription = 2, FileBuildPart = 3)</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.FileReplace(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="sFile1">...</param>
+ <param name="sFile2">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.LogMessage(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Message">Eintrag, der geschrieben werden soll</param>
+ <param name="LogFileName">Pfad zur Logdatei</param>
+</member>
+<member name="M:FindReplace.s_File.FileCompare(System.String,System.String)">
+ <summary>
+ Vergleicht zwei Dateien
+ </summary>
+ <param name="sFile1">Pfad zur Datei</param>
+ <param name="sFile2">Pfad zur Datei</param>
+ <returns>Identical = 0 identisch, SizeDifferent = 1 Dateigröße verschieden, ContentDifferent = 2 Inhalt verschieden, [Error] = 3 Fehler</returns>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.Windows.Forms.ListBox,System.String,Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.IO.SearchOption,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="directory">...</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFilesCount(System.String,System.IO.SearchOption,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="directory">...</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.Collections.Generic.List{System.String},System.String,Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.Windows.Forms.ListBox,System.IO.SearchOption,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="directory">...</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFolder(System.String,System.Windows.Forms.ListBox,Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFolder(System.String,System.Collections.Generic.List{System.String},Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFolderSize(System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+</member>
+<member name="M:FindReplace.s_File.OpenDocument(System.String,System.String)">
+ <summary>
+ Startet eine bestimmte Anwendung mit dem angegebenen Dokument
+ </summary>
+ <param name="ProgramFile">Dateiname der Anwendung</param>
+ <param name="DocumentFile">Dokument-Dateiname</param>
+ <returns>True, wenn die Anwendung gestartet werden konnte, andernfalls False.</returns>
+</member>
+<member name="M:FindReplace.s_File.OpenDocument(System.String)">
+ <summary>
+ Öffnet das Dokument mit der im System festgelegten Standard-Anwendung
+ </summary>
+ <param name="DocumentFile">Dokument-Dateiname</param>
+ <returns>True, wenn das Dokument geöffnet werden konnte, andernfalls False.</returns>
+</member>
+<member name="M:FindReplace.s_File.ArraySave(System.String,System.Object)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="arr">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.ArrayRead(System.String,System.Object@)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="arr">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.FindReplaceString(System.Windows.Forms.TextBox,System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Box">...</param>
+ <param name="oldText">....</param>
+ <param name="newText">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindReplaceString(System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="oldText">....</param>
+ <param name="newText">....</param>
+ <param name="append">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.Windows.Forms.ListBox,System.String,System.Char)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="box">....</param>
+ <param name="StrSuche">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="StrSuche">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.Windows.Forms.TextBox,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Box">...</param>
+ <param name="StrSuche">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="StrSuche">....</param>
+ <param name="str">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.String,System.Windows.Forms.ListBox,System.Text.Encoding,System.Char,System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="StrSuche">....</param>
+ <param name="List">....</param>
+ <param name="Encoding">....</param>
+ <param name="Split">....</param>
+ <param name="replaceold">....</param>
+ <param name="replacenew">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.String,System.String,System.Windows.Forms.ListBox)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="StartString">....</param>
+ <param name="EndString">...</param>
+ <param name="box">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.String,System.String,System.Int32)">
+ <summary>
+ ....
+ </summary>
+ <param name="Pfad">...</param>
+ <param name="StrSuche">....</param>
+ <param name="I">....</param>
+</member>
+<member name="M:FindReplace.s_File.FindString(System.Collections.Generic.List{System.String},System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="List">...</param>
+ <param name="StrSuche">....</param>
+</member>
+<member name="M:FindReplace.s_File.Left(System.String,System.Int32)">
+ <summary>
+ ....
+ </summary>
+ <param name="sText">...</param>
+ <param name="nLen">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.Right(System.String,System.Int32)">
+ <summary>
+ ....
+ </summary>
+ <param name="sText">...</param>
+ <param name="nLen">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.SetFile(System.String,System.String,System.Boolean,System.Int32)">
+ <summary>
+ ....
+ </summary>
+ <param name="cPfad1">...</param>
+ <param name="cPfad2">....</param>
+ <param name="overwrite">....</param>
+ <param name="I">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.SetFile(System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="dPfad">...</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.SetFile(System.String,System.String,System.Boolean)">
+ <summary>
+ ....
+ </summary>
+ <param name="mPfad1">...</param>
+ <param name="mPfad2">....</param>
+ <param name="overwrite">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.SetFile(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="rPfad1">...</param>
+ <param name="rPfad2">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.SetFolder(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Kopiert einen Ordner
+ </summary>
+ <param name="cPfad1">Quellordner</param>
+ <param name="cPfad2">Zielordner</param>
+ <param name="overwrite">Gibt an, ob der Zielorner überschrieben werden soll</param>
+ <param name="löschen">Gibt an, ob der Zielorner gelöscht werden soll</param>
+ <param name="QuelltoZiel">Gibt an, ob Quell- und Zielordner den gleichen Namen haben (c:\Test\Backup) Backup wird übernommen</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.ToSecureString(System.String)">
+ <summary>
+ String zu SecureString
+ </summary>
+ <param name="source">String der umgewandert werden soll</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.ToUnsecureString(System.Security.SecureString)">
+ <summary>
+ SecureString zu SecureString
+ </summary>
+ <param name="source">String der umgewandert werden soll</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.CopyToClipboard(System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="File">...</param>
+</member>
+<member name="M:FindReplace.s_File.CopyToClipboard(System.String,System.Int32)">
+ <summary>
+ ....
+ </summary>
+ <param name="Text">...</param>
+ <param name="I">....</param>
+</member>
+<member name="M:FindReplace.s_File.CreateShortCut(System.String,System.String,System.String,FindReplace.s_File.ShortCut)">
+ <summary>
+ ........
+ </summary>
+ <param name="FileName">....</param>
+ <param name="ShortCutName">....</param>
+ <param name="ShortCutPath">....</param>
+ <param name="ShortCut">....</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.deleteEmptyLines(System.String)">
+ <summary>
+ ........
+ </summary>
+ <param name="path">....</param>
+ <remarks></remarks>
+</member>
+<member name="M:FindReplace.s_File.DelLineFromFile(System.String,System.Int32)">
+ <summary>
+ Löscht die angegebene Zeile aus der Datei
+ </summary>
+ <param name="filename">Dateiname</param>
+ <param name="line">Zeilennummer der Zeile, die gelöscht werden soll.</param>
+ <remarks></remarks>
+</member>
+<member name="M:FindReplace.s_File.GetEventLogEntry(System.Collections.Generic.List{System.String},System.Boolean,System.String)">
+ <summary>
+ Ruft einen Eintrag im Windows-EventLog ab
+ </summary>
+ <param name="List">Beinhaltet die gefunden Einträge. 0=TimeGenerated,1=InstanceId,2=Source</param>
+ <param name="LastEntry">optional Bestimmt ob der Letzte oder erste Eintrag gesucht wird</param>
+ <param name="LogName">optional Name des EventLogs</param>
+</member>
+<member name="M:FindReplace.s_File.GetEventLogEntry(System.Windows.Forms.ListBox,System.Int32,System.String,System.DateTime,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="List"></param>
+ <param name="EventID"></param>
+ <param name="LogName">optional Name des EventLogs</param>
+ <param name="DatumZeit">optional Datum und Uhrzeit</param>
+ <param name="Datum">optional alle Einträge von dem Datum</param>
+</member>
+<member name="M:FindReplace.s_File.WriteFile(System.String,System.String,System.Boolean)">
+ <summary>
+ ....
+ </summary>
+ <param name="FileName">...</param>
+ <param name="WriteLine">....</param>
+ <param name="Append">....</param>
+</member>
+<member name="M:FindReplace.s_File.WriteFile(System.String,System.Int32,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="FileName">...</param>
+ <param name="Line">....</param>
+ <param name="Text">....</param>
+</member>
+<member name="M:FindReplace.s_File.CopyFolder(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>
+ ....
+ </summary>
+ <param name="sSrcPath">...</param>
+ <param name="sDestPath">....</param>
+ <param name="bSubFolder">....</param>
+ <param name="bOverWrite">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetLineFromFile(System.String,System.Boolean,System.Boolean)">
+ <summary>
+ ....
+ </summary>
+ <param name="sPfad">...</param>
+ <param name="LastLine">....</param>
+ <param name="FirstLine">....</param>
+</member>
+<member name="M:FindReplace.s_File.OpenFileDialog(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="IniPfad">...</param>
+ <param name="Filter">....</param>
+</member>
+<member name="M:FindReplace.s_File.SaveFileDialog(System.String,System.String)">
+ <summary>
+ ....
+ </summary>
+ <param name="IniPfad">...</param>
+ <param name="Filter">....</param>
+</member>
+<member name="M:FindReplace.s_File.FolderBrowserDialog(FindReplace.s_File.StartFolder,System.Boolean)">
+ <summary>
+ ...
+ </summary>
+ <param name="RootFolder"></param>
+ <param name="NewFolder"></param>
+</member>
+<member name="M:FindReplace.s_File.AddToExplorerContextMenu(System.String,System.String,System.String)">
+ <summary>
+ Fügt dem Kontextmenü des Windows Explorers einen Eintrag für einen Dateityp hinzu.
+ Bei Erfolg wird True zurückgegeben, sonst False.
+ Beispiel der Kommentare: extension=.js ,text=In JSEdit öffnen, command= C:\jsedit.exe "%1"
+ </summary>
+ <param name="extension">Der Dateityp. Beispiel: .txt</param>
+ <param name="text">Der Text des Eintrags. Beispiel: In JSEdit öffnen</param>
+ <param name="command">Der aufzurufende Befehl. Beispiel: C:\jsedit.exe "%1"</param>
+</member>
+<member name="M:FindReplace.s_File.RemoveFromExplorerContextMenu(System.String,System.String)">
+ <summary>
+ Entfernt einen Eintrag eines Dateityüs aus dem Kontextmenü des Windows Explorers.
+ </summary>
+ <param name="extension">Siehe AddToExplorerContextMenu()</param>
+ <param name="text">Siehe AddToExplorerContextMenu()</param>
+</member>
+<member name="M:FindReplace.s_File.GrantAccess(System.String)">
+ <summary>
+ ...
+ </summary>
+ <param name="fullPath"></param>
+</member>
+<member name="M:FindReplace.s_File.GetDirectoriesCount(System.String,System.String,System.IO.SearchOption)">
+ <summary>
+ ...
+ </summary>
+ <param name="sDirectory"></param>
+ <param name="Pattern"></param>
+ <param name="SearchOption"></param>
+</member>
+<member name="M:FindReplace.s_File.GetGuid">
+ <summary>
+ ...
+ </summary>
+</member>
+<member name="M:FindReplace.s_File.GetContains(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+ <summary>
+ ...
+ </summary>
+ <param name="list1"></param>
+ <param name="list2"></param>
+</member>
+<member name="M:FindReplace.s_File.GetSubDirectories(System.String,System.Windows.Forms.ListBox)">
+ <summary>
+ ...
+ </summary>
+ <param name="Dir"></param>
+ <param name="list"></param>
+</member>
+<member name="M:FindReplace.s_File.GetSubDirectories(System.String)">
+ <summary>
+ ...
+ </summary>
+ <param name="Dir"></param>
+</member>
+<member name="M:FindReplace.s_File.ReadFile(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ ...
+ </summary>
+ <param name="Pfad"></param>
+ <param name="List"></param>
+</member>
+<member name="M:FindReplace.s_File.ReadFile(System.String,System.Windows.Forms.ListBox)">
+ <summary>
+ ...
+ </summary>
+ <param name="Pfad"></param>
+ <param name="List"></param>
+</member>
+<member name="M:FindReplace.s_File.ReadFile(System.String)">
+ <summary>
+ ...
+ </summary>
+ <param name="Pfad"></param>
+</member>
+<member name="M:FindReplace.s_File.GetCurrentLine(System.Windows.Forms.RichTextBox)">
+ <summary>
+ Zeilennummer der aktuellen Eingabeposition ermitteln
+ </summary>
+ <param name="oTextBox"></param>
+</member>
+<member name="M:FindReplace.s_File.GetCurrentLine(System.Windows.Forms.TextBox)">
+ <summary>
+ Zeilennummer der aktuellen Eingabeposition ermitteln
+ </summary>
+ <param name="oTextBox"></param>
+</member>
+<member name="M:FindReplace.s_File.GetCurrentCol(System.Windows.Forms.RichTextBox)">
+ <summary>
+ Spaltennummer der aktuellen Zeile ermitteln
+ </summary>
+ <param name="oTextBox"></param>
+</member>
+<member name="M:FindReplace.s_File.GetCurrentCol(System.Windows.Forms.TextBox)">
+ <summary>
+ Spaltennummer der aktuellen Zeile ermitteln
+ </summary>
+ <param name="oTextBox"></param>
+</member>
+<member name="M:FindReplace.s_File.FileInUse(System.String)">
+ <summary>
+  Prüft, ob die angegeben Datei aktuell durch eine andere Anwendung in Benutzung ist
+ </summary>
+ <param name="sFile"></param>
+</member>
+<member name="M:FindReplace.s_File.FileOwner(System.String)">
+ <summary>
+ Gibt den Besitzer einer Datei zurück
+ </summary>
+ <param name="Filename">Dateiname</param>
+</member>
+<member name="M:FindReplace.s_File.KillFile(System.String)">
+ <summary>
+ Datei sicher löschen
+ </summary>
+ <param name="Filename">Dateiname mit vollständiger Pfadangabe</param>
+ <returns>True, wenn die Datei gelöscht werden konnte, andernfalls False.</returns>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.Windows.Forms.ListBox,System.String,System.String,Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.GetFiles(System.String,System.Collections.Generic.List{System.String},System.String,System.String,Microsoft.VisualBasic.FileIO.SearchOption)">
+ <summary>
+ ....
+ </summary>
+ <param name="sDir">...</param>
+ <param name="List">....</param>
+ <param name="Pattern">....</param>
+ <param name="SearchOption">....</param>
+</member>
+<member name="M:FindReplace.s_File.Adventstage(System.Int16)">
+ <summary>
+ Berechnen Daten des Advent
+ </summary>
+ <param name="Jahr">das betreffende Jahr</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.FindFilePathsByFileName(System.String,System.String,System.String)">
+ <summary>
+ Suchen der Pfade eines Files
+ </summary>
+ <param name="rootFolderPath">der Ausgangspfad</param>
+ <param name="fName">der Filename inkl. Extension</param>
+ <param name="fExt">die File-Extension</param>
+ <returns></returns>
+</member>
+<member name="M:FindReplace.s_File.MyGetFiles(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>
+ 	finden von Dateien rekursiv
+ </summary>
+ <param name="path">der zu durchsuchende Pfad</param>
+ <param name="searchPattern">der File-Filter nach Extension</param>
+ <param name="inclPath">suchen auch in Unterordnern</param>
+ <param name="uCase">die Filenamen nur als Großbuchstaben</param>
+ <returns>die String-Liste der Filenamen</returns>
+</member>
+<member name="M:FindReplace.s_File.SortFilesByDate(System.String[],FindReplace.s_File.EnumFileAttributes,System.Boolean,System.Boolean)">
+ <summary>
+ Sortierung einer Datei-Namenliste, 
+ wo die Namen mit komplettem Pfad in einem Array angegeben werden,
+ nach einer von 3 verschiedenen Zeitangaben.
+ Die Zeiten LastAccessTime, LastWriteTime und CreationTime stehen zur Verfügung.
+ Das Array wird nach einer von diesen 3 Zeiten sortiert.
+ </summary>
+ <param name="theFileArray">das zu sortierende Array mit den kompletten Pfaden der zu sortierenden Dateien</param>
+ <param name="theTime">die Zeit, nach der sortiert werden soll</param>
+ <param name="doReverse">soll das Array nach der Sortierung umgekehrt werden, true|false</param>
+ <param name="delPath">sollen im Array die Pfade beseitigt werden, true|false</param>
+</member>
+</members>
+</doc>

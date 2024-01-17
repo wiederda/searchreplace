@@ -1,0 +1,12 @@
+C:\Users\cb\source\repos\WindowsApp11\bin\Release\FindReplace.exe.config
+C:\Users\cb\source\repos\WindowsApp11\bin\Release\FindReplace.exe
+C:\Users\cb\source\repos\WindowsApp11\bin\Release\FindReplace.pdb
+C:\Users\cb\source\repos\WindowsApp11\bin\Release\FindReplace.xml
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\WindowsApp11.vbproj.AssemblyReference.cache
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\FindReplace.Form1.resources
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\FindReplace.Resources.resources
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\WindowsApp11.vbproj.GenerateResource.cache
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\WindowsApp11.vbproj.CoreCompileInputs.cache
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\FindReplace.exe
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\FindReplace.xml
+C:\Users\cb\source\repos\WindowsApp11\obj\Release\FindReplace.pdb

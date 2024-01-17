@@ -1,0 +1,12 @@
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\bin\Release\FindReplace.exe.config
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\bin\Release\FindReplace.exe
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\bin\Release\FindReplace.pdb
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\bin\Release\FindReplace.xml
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.vbproj.AssemblyReference.cache
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.Form1.resources
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.Resources.resources
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.vbproj.GenerateResource.cache
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.vbproj.CoreCompileInputs.cache
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.exe
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.xml
+C:\_Lokale_Daten_ungesichert\source\Gitlab\searchreplace\obj\Release\FindReplace.pdb
